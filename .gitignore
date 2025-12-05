@@ -1,23 +1,67 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# .gitignore optimisé pour une application React/Node sur Windows
+# Inclut: node, builds, caches, logs, IDEs, OS, et fichiers temporaires
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+### Node / package managers
+node_modules/
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
+
+### Build outputs
+/build/
+/dist/
+/out/
+/coverage/
+
+### Environment variables
+.env
+.env.*.local
+
+### Caches
+.cache/
+/.parcel-cache/
+/node_modules/.cache/
+.turbo/
+.next/cache/
+
+### Yarn PnP
+/.pnp/
+.pnp.js
+
+### Logs
+logs/
+*.log
+
+### OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+### Misc common
+/coverage/
+/dist/
+/.cache/
+
+### Optional: large media or personal folders
+# Uncomment to ignore local media directories (if you store large mp3s locally)
+# /public/music/
+
+### OneDrive / Windows temp
+# Ignore OneDrive temporary files if they appear locally
+~$*
+
+### Windows PowerShell history
+# (only if you want to avoid storing PS history files in repo root)
+ps_history
+
+### Add any project-specific ignores below
+
