@@ -23,11 +23,11 @@ const MusicApp = () => {
   const audioRef = useRef(null);
 
   const tracks = [
-    // APOCALYPSE (2024) - Exemples avec des fichiers audio de démonstration
+    // APOCALYPSE (2024)
     { id: 1, title: "TOKI", artist: "Gazo", album: "APOCALYPSE", duration: 206, cover: "🔥", audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
     { id: 2, title: "ENCORE PLUS FORT ELLE AIME ÇA", artist: "Gazo", album: "APOCALYPSE", duration: 182, cover: "🔥", audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
     { id: 3, title: "LA BELLE ET LA BÊTE", artist: "Gazo", album: "APOCALYPSE", duration: 194, cover: "🔥", audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
-    { id: 4, title: "SELELE", artist: "Gazo feat. Fally Ipupa", album: "APOCALYPSE", duration: 197, cover: "🔥", audioUrl: `${PUBLIC_BASE_URL}/music/Gazo_SELELE.mp3` },
+    { id: 4, title: "SELELE", artist: "Gazo feat. Fally Ipupa", album: "APOCALYPSE", duration: 197, cover: "🔥", audioUrl: "https://www.dropbox.com/scl/fo/oalqgybeqm2uc6staegcs/AF_LvXB7grXEhvtpZZphSkk?rlkey=pwk0smp9go6uhypejowjvtfnp&st=ptdjjb63&dl=0/Gazo_SELELE.mp3" },
     { id: 5, title: "NANANI NANANA", artist: "Gazo", album: "APOCALYPSE", duration: 217, cover: "🔥", audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
     { id: 6, title: "PURE CODEI", artist: "Gazo feat. Yamê", album: "APOCALYPSE", duration: 244, cover: "🔥", audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" },
     { id: 7, title: "WEMBY", artist: "Gazo feat. Offset", album: "APOCALYPSE", duration: 180, cover: "🔥", audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
