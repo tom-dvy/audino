@@ -1,0 +1,112 @@
+# .gitignore optimisé pour une application React/Node sur Windows
+# Inclut: node, builds, caches, logs, IDEs, OS, et fichiers temporaires
+
+### Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+/.vscode/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
+
+
+### Build outputs
+/build/
+/dist/
+/out/
+/coverage/
+
+### Environment variables
+.env
+.env.*.local
+
+### Caches
+.cache/
+/.parcel-cache/
+/node_modules/.cache/
+.turbo/
+.next/cache/
+
+### Yarn PnP
+/.pnp/
+.pnp.js
+
+### Logs
+logs/
+*.log
+
+### OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+### Misc common
+/coverage/
+/dist/
+/.cache/
+
+### Optional: large media or personal folders
+# Uncomment to ignore local media directories (if you store large mp3s locally)
+# /public/music/
+
+### OneDrive / Windows temp
+# Ignore OneDrive temporary files if they appear locally
+~$*
+
+### Windows PowerShell history
+# (only if you want to avoid storing PS history files in repo root)
+ps_history
+
+### Add any project-specific ignores below
+
